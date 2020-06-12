@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
+import { Container, Row, Col, Button, Nav } from 'react-bootstrap';
 
 class Artist extends Component {
     render() {
@@ -33,7 +33,7 @@ class Artist extends Component {
                         <span className="navbar-toggler-icon"></span>
                         </Button>
                         <div className="collapse navbar-collapse d-flex justify-content-center flex-row" id="navbarNavDropdown">
-                        <Nav defaultActiveKey="/home" as="ul">
+                        <Nav defaultActiveKey="/home" as="ul"> 
                             <Nav.Item as="li">
                             <Nav.Link href="#">TRENDING <span className="sr-only">(current)</span></Nav.Link>
                             </Nav.Item>

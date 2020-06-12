@@ -5,15 +5,18 @@ import "./homestyle.css"
 import Footer from './Components/Footer';
 import Sidebar from './Components/Sidebar';
 import Artist from './Components/Artist';
+import Prova from './Components/Prova';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Artist />
+      < Prova />
+      {/*<Artist />*/}
       {/* <Sidebar />*/}
       {/*<Footer />*/}
+      
     </div>
   );
 }
